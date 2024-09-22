@@ -1,0 +1,379 @@
+body{
+    background-color:darkred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.principal{
+    height: 350px;
+    width: 500px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left: 425px;
+        
+}
+.principal h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.principal p{
+    text-align: center;
+    font-size: 17px;
+}
+.Cap{
+    border-radius: 40px;
+    height: 35px;
+    width: 300px;
+    border-color: darkred;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.Tiem{
+    border-radius: 40px;
+    height: 35px;
+    width: 300px;
+    font-size: 20px;
+    margin-left: 100px;
+    border-color: darkred;
+}
+.boton{
+    width:105px;
+    height:50px;
+    border:none;
+    margin-left: 100px;
+    margin-top:20px;
+    cursor:pointer;
+    background-color: darkred;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.Problema2{
+    height: 420px;
+    width: 900px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left: 220px;
+        
+}
+.Problema2 h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.Problema2 p{
+    text-align: center;
+    font-size: 17px;
+}
+.tk{
+    margin: 30px;
+    display:flex;
+}
+.Ven1{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+    height: 65px;
+    width: 200px;
+    border-color: darkred;
+    font-size: 20px;
+}
+.Ven2{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+    height: 65px;
+    width: 200px;
+    border-color: darkred;
+    font-size: 20px;
+}
+.Ven3{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+    height: 65px;
+    width: 200px;
+    border-color: darkred;
+    font-size: 20px;
+}
+.boton1{
+    width:105px;
+    height:50px;
+    border:none;
+    margin-left: 230px;
+    margin-top:20px;
+    cursor:pointer;
+    background-color: darkred;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.Sal{
+    border-radius: 40px;
+    height: 35px;
+    width: 300px;
+    border-color: darkred;
+    font-size: 20px;
+    margin-left: 300px;
+}
+.Problema3{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left: 350px;
+        
+}
+.Problema3 h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.Problema3 p{
+    text-align: center;
+    font-size: 17px;
+}
+.art{
+    border-radius: 40px;
+    height: 35px;
+    width: 300px;
+    border-color: darkred;
+    font-size: 20px;
+    margin-left: 150px;
+}
+.boton2{
+    width:105px;
+    height:50px;
+    border:none;
+    margin-left: 130px;
+    margin-top:20px;
+    cursor:pointer;
+    background-color: darkred;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.Problema4{
+    height: 540px;
+    width: 900px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left: 220px;
+        
+}
+.Problema4 h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.Problema4 p{
+    text-align: center;
+    font-size: 17px;
+}
+.tk{
+    margin: 30px;
+    display:flex;
+}
+.Pp{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+    height: 65px;
+    width: 200px;
+    border-color: darkred;
+    font-size: 20px;
+}
+.Sp{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+    height: 65px;
+    width: 200px;
+    border-color: darkred;
+    font-size: 20px;
+}
+.Tp{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+    height: 65px;
+    width: 200px;
+    border-color: darkred;
+    font-size: 20px;
+}
+.Ef{
+    border-radius: 40px;
+    height: 35px;
+    width: 300px;
+    border-color: darkred;
+    font-size: 20px;
+    margin-left: 300px;
+}
+.Tf{
+    border-radius: 40px;
+    height: 35px;
+    width: 300px;
+    border-color: darkred;
+    font-size: 20px;
+    margin-left: 300px;
+}
+.boton3{
+    width:105px;
+    height:50px;
+    border:none;
+    margin-left: 235px;
+    margin-top:20px;
+    cursor:pointer;
+    background-color: darkred;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.Problema5{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left: 350px;
+        
+}
+.Problema5 h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.Problema5 p{
+    text-align: center;
+    font-size: 17px;
+}
+.an{
+    border-radius: 40px;
+    height: 35px;
+    width: 300px;
+    border-color: darkred;
+    font-size: 20px;
+    margin-left: 150px;
+}
+.boton4{
+    width:105px;
+    height:50px;
+    border:none;
+    margin-left: 130px;
+    margin-top:20px;
+    cursor:pointer;
+    background-color: darkred;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.Problema7{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left: 350px;
+        
+}
+.Problema7 h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.Problema7 p{
+    text-align: center;
+    font-size: 17px;
+}
+.num{
+    border-radius: 40px;
+    height: 35px;
+    width: 300px;
+    border-color: darkred;
+    font-size: 20px;
+    margin-left: 150px;
+}
+.boton5{
+    width:105px;
+    height:50px;
+    border:none;
+    margin-left: 130px;
+    margin-top:20px;
+    cursor:pointer;
+    background-color: darkred;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.Problema8{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left: 350px;
+        
+}
+.Problema8 h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.Problema8 p{
+    text-align: center;
+    font-size: 17px;
+}
+.em{
+    border-radius: 40px;
+    height: 35px;
+    width: 300px;
+    border-color: darkred;
+    font-size: 20px;
+    margin-left: 150px;
+}
+.boton7{
+    width:105px;
+    height:50px;
+    border:none;
+    margin-left: 130px;
+    margin-top:20px;
+    cursor:pointer;
+    background-color: darkred;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.Problema9{
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left: 350px;
+        
+}
+.Problema9 h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.Problema9 p{
+    text-align: center;
+    font-size: 17px;
+}
+.formu{
+    border-radius: 40px;
+    height: 35px;
+    width: 300px;
+    border-color: darkred;
+    font-size: 20px;
+    margin-left: 150px;
+}
+.boton8{
+    width:105px;
+    height:50px;
+    border:none;
+    margin-left: 130px;
+    margin-top:20px;
+    cursor:pointer;
+    background-color: darkred;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+}

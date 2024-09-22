@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./validacion.js"></script>
+    <title>Ejercicios</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="Ejercicios.css"></head>
+
+</head>
+<body>
+    <div class="principal">
+        <form method="get" name="resgistro" onsubmit="return validar(this)" action="index.html">    
+    <h1>Ejercicio 1:</h1>
+    <p>Ingresa el capital que vas a invertir:</p>
+    <input class="Cap" type="text" name="Cap" id="Cap">
+    <p>Ingresa el tiempo en el que se va a dejar el dinero:</p>
+    <input class="Tiem" type="text" name="Tiem" id="Tiem">
+    
+    <br>
+    <input class="boton" type="submit" id="enviar" value="Enviar" >
+<input class="boton" type="reset" id="reset" value="Reset" >
+</form>    
+    </div> 
+    <div class="Problema2">
+        <form  method="get" name="resgistro" onsubmit="return validar2(this)" action="index.html">    
+        <h1>Ejercicio 2:</h1>
+        <p>Ingresa el valor de las 3 ventas del mes</p>
+        <div class="tk">
+        <p>Venta 1:</p>
+        <input class="Ven1" type="text" name="Ven1" id="Ven1">
+        <p>Venta 2:</p>
+        <input class="Ven2" type="text" name="Ven2" id="Ven2">
+        <p>Venta 3:</p>
+        <input class="Ven3" type="text" name="Ven3" id="Ven3">
+        </div>
+        <p>Ingresa tu salario</p>
+        <input class="Sal" type="text" name="Sal" id="Sal">
+        <br>
+        <br>
+        <input class="boton1" type="submit" id="enviar" value="Enviar" >
+        <input class="boton1" type="reset" id="reset" value="Reset" >
+    </form>        
+    </div>
+    <div class="Problema3">
+        <form  method="get" name="resgistro" onsubmit="return validar3(this)" action="index.html">    
+        <h1>Ejercicio 3:</h1>
+        <p>Ingresa el valor del articulo:</p>
+        <input class="art" type="text" name="art" id="art">
+        <br>
+        <br>
+        <input class="boton2" type="submit" id="enviar" value="Enviar" >
+        <input class="boton2" type="reset" id="reset" value="Reset" >
+    </form>        
+    </div>
+    <div class="Problema4">
+    <form  method="get" name="resgistro" onsubmit="return validar4(this)" action="index.html">    
+    <h1>Ejercicio 4:</h1>
+    <p>Ingresa el valor de tus calificaciones de los 3 parciales</p>
+        <div class="tk">
+        <p>Primer parcial:</p>
+        <input class="Pp" type="text" name="Pp" id="Pp">
+        <p>Segundo parcial:</p>
+        <input class="Sp" type="text" name="Sp" id="Sp">
+        <p>Tercer parcial:</p>
+        <input class="Tp" type="text" name="Tp" id="Tp">
+         </div>
+        <p>Ingresa la calificación de tu examen final:</p>
+        <input class="Ef" type="text" name="Ef" id="Ef">
+        <p>Ingresa la calificación de tu trabajo final:</p>
+        <input class="Tf" type="text" name="Tf" id="Tf">
+    <br>
+    <br>
+    <input class="boton3" type="submit" id="enviar" value="Enviar" >
+    <input class="boton3" type="reset" id="reset" value="Reset" >
+</form>        
+    </div>
+    <div class="Problema5">
+        <form  method="get" name="resgistro" onsubmit="return validar5(this)" action="index.html">    
+        <h1>Ejercicio 5:</h1>
+        <p>Ingresa el año que naciste:</p>
+        <input class="an" type="text" name="an" id="an">
+        <br>
+        <br>
+        <input class="boton4" type="submit" id="enviar" value="Enviar" >
+        <input class="boton4" type="reset" id="reset" value="Reset" >
+    </form>        
+    </div>
+    <div class="Problema7">
+        <form  method="get" name="resgistro" onsubmit="return validar6(this)" action="index.html">    
+        <h1>Ejercicio 7:</h1>
+        <p>Ingresar tus horas trabajadas:</p>
+        <input class="num" type="text" name="num" id="num">
+        <br>
+        <br>
+        <input class="boton5" type="submit" id="enviar" value="Enviar" >
+        <input class="boton5" type="reset" id="reset" value="Reset" >
+    </form>        
+    </div>
+    <div class="Problema8">
+        <form  method="get" name="resgistro" onsubmit="return validar8(this)" action="index.html">    
+        <h1>Ejercicio 8:</h1>
+        <p>Ingresa los años que llevas trabajando en la empresa:</p>
+        <input class="em" type="text" name="em" id="em">
+        <br>
+        <br>
+        <input class="boton7" type="submit" id="enviar" value="Enviar" >
+        <input class="boton7" type="reset" id="reset" value="Reset" >
+    </form>        
+    </div>
+    <div class="Problema9">
+        <form  method="get" name="resgistro" onsubmit="return validar9(this)" action="index.html">    
+        <h1>Ejercicio 9:</h1>
+        <p>Ingresa tu nombre:</p>
+        <input class="formu" type="text" name="nombrec" id="nombrec" required>
+        <p>Ingresa tu email:</p>
+        <input class="formu" type="email" name="emails" id="emails" required>
+        <p>Ingresa un comentario(maximo 50 caracteres)</p>
+        <input type="text" id="nombre" name="nombre" maxlength="50" class="formu">
+        <p>Ingresa una contraseña (Minimo 6 caracteres)</p>
+        <input type="password" id="password" name="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,}" minlength="6" required title="La contraseña debe tener al menos 6 caracteres, incluir una letra minúscula, una letra mayúscula y un número." class="formu">
+        <br>
+        <br>
+        <input class="boton8" type="submit" id="enviar" value="Enviar" >
+        <input class="boton8" type="reset" id="reset" value="Reset" >
+    </form>        
+    </div>
+    
+    
+</body>
+</html>
